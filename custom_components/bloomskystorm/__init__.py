@@ -25,7 +25,7 @@ DOMAIN = 'bloomskystorm'
 
 # The BloomSky only updates every 5-8 minutes as per the API spec so there's
 # no point in polling the API more frequently
-MIN_TIME_BETWEEN_UPDATES = timedelta(seconds=300)
+MIN_TIME_BETWEEN_UPDATES = timedelta(seconds=150)
 
 CONFIG_SCHEMA = vol.Schema({
     DOMAIN: vol.Schema({
