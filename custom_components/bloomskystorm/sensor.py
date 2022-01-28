@@ -37,10 +37,10 @@ SENSOR_TYPES = ['UVIndex',
                 '24hRain']
 
 # Sensor units - these do not currently align with the API documentation
-SENSOR_UNITS = {'RainRate': 'mm',
+SENSOR_UNITS = {'UVIndex': '',
+                'RainRate': 'mm',
                 'SustainedWindSpeed': 'm/s',
                 'RainDaily': 'mm',
-                'WindDirection': '',
                 'WindGust': 'm/s',
                 '24hRain' : 'mm'}       
 
